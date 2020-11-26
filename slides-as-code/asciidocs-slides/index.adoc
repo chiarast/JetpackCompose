@@ -1,0 +1,67 @@
+= Jetpack Compose
+Chiara Strutzenberger
+1.0, 2020-11-19
+ifndef::sourcedir[:sourcedir: ../src/main/java]
+ifndef::imagesdir[:imagesdir: images]
+ifndef::backend[:backend: html5]
+:icons: font
+
+== Android Programming till now
+
+* Logic with Java
+* Design with XML
+* Imperative programming
+* UI as tree of widgets
+* State change => update UI hierarchy
+
+=== Problems
+
+* Different expectations on UI
+* Toolkit depend on OS
+* UI implementation not up to date
+
+image::the_problem.png[]
+
+== Solution
+
+* Declarative frameworks
+* UI described as function
+* State change => automized updating UI
+
+=== Imperative vs Declarative
+
+* Declarative what to do
+* Imperative how to do it
+
+image::Imperativ_vs_Deklarativ.PNG[]
+
+== Programming
+
+* Android Studio 4.2 (Canary)
+* Kotlin
+* Lambdas
+
+=== Coding
+
+* Order is important
+* Composables can be used multiple times
+* Modifier
+
+== What to use for
+
+* New android apps
+* For updating an existing app
+* Building new views in existing app
+
+== Example
+
+== Sources
+
+* https://developer.android.com/jetpack/compose?gclid=CjwKCAiAnIT9BRAmEiwANaoE1QcrxVbFKPthS72_EHkitQQ0Oyr3nAsm0_6QDpvsNTCZiJj1EyiG8hoCPKUQAvD_BwE&gclsrc=aw.ds
+* https://foso.github.io/Jetpack-Compose-Playground/general/modifier/
+* https://developer.android.com/codelabs/jetpack-compose-basics#0
+* https://developer.android.com/jetpack/compose/tutorial
+* https://proandroiddev.com/why-do-we-need-jetpack-compose-d69a5fd20122
+* https://android-developers.googleblog.com/2020/08/announcing-jetpack-compose-alpha.html
+
+== Danke für eure Aufmerksamkeit
